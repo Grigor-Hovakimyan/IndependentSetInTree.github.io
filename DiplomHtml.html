@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Independent sets</title>
+    <link rel="stylesheet" href="DiplomCss.css" type="text/css">
+</head>
+<body>
+<div>
+<form>
+    <label id="inputNode">
+    <input placeholder="Սկզբնակետ" id="origin"  type="text">
+    <input placeholder="Վերջնակետ" id="endPoint" type="text">
+    <br>
+    </label>
+</form>
+<button onclick="edges()" type="button" id="add">Ավելացնել</button>
+<button onclick="solution()" type="button" id="count">Հաշվել</button>
+   <button  onClick="window.location.reload()" type="button" id="again">Սկսել Նորից</button>
+    <h4>Գագաթների մաքսիմալ անկախ հավաքածուների քանակը <span id="number"></span> գագաթանի ծառում</h4>
+<h1 id="indSet"></h1>
+<h4> Ծառի գագաթների մաքսիմալ անկախ հավաքածուն</h4>
+<h1 id="indSetEnd"></h1>
+<h4>Գագաթային ծածկույթ</h4>
+<h1 id="cover"></h1>
+</div>
+<script src="DiplomJavaScript.js"></script>
+</body>
+</html>
